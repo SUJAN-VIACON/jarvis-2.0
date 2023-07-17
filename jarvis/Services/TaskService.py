@@ -57,3 +57,5 @@ class TaskService:
 
     def test(self, query):
         SpeechService.speak(query)
+
+        
