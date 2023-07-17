@@ -107,26 +107,66 @@
     },
     {
         "label": "GlobalVariable",
-        "importPath": "jarvis.GlobalVariable",
-        "description": "jarvis.GlobalVariable",
+        "importPath": "resources",
+        "description": "resources",
         "isExtraImport": true,
-        "detail": "jarvis.GlobalVariable",
+        "detail": "resources",
         "documentation": {}
     },
     {
         "label": "GlobalVariable",
-        "importPath": "jarvis.GlobalVariable",
-        "description": "jarvis.GlobalVariable",
+        "importPath": "resources",
+        "description": "resources",
         "isExtraImport": true,
-        "detail": "jarvis.GlobalVariable",
+        "detail": "resources",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechService",
+        "importPath": "resources",
+        "description": "resources",
+        "isExtraImport": true,
+        "detail": "resources",
         "documentation": {}
     },
     {
         "label": "GlobalVariable",
-        "importPath": "jarvis.GlobalVariable",
-        "description": "jarvis.GlobalVariable",
+        "importPath": "resources",
+        "description": "resources",
         "isExtraImport": true,
-        "detail": "jarvis.GlobalVariable",
+        "detail": "resources",
+        "documentation": {}
+    },
+    {
+        "label": "TaskService",
+        "importPath": "resources",
+        "description": "resources",
+        "isExtraImport": true,
+        "detail": "resources",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechService",
+        "importPath": "resources",
+        "description": "resources",
+        "isExtraImport": true,
+        "detail": "resources",
+        "documentation": {}
+    },
+    {
+        "label": "GreetingService",
+        "importPath": "resources",
+        "description": "resources",
+        "isExtraImport": true,
+        "detail": "resources",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechRecognitionService",
+        "importPath": "resources",
+        "description": "resources",
+        "isExtraImport": true,
+        "detail": "resources",
         "documentation": {}
     },
     {
@@ -148,27 +188,19 @@
         "documentation": {}
     },
     {
-        "label": "SystemTask",
-        "importPath": "jarvis.Tasks.SystemTask",
-        "description": "jarvis.Tasks.SystemTask",
+        "label": "GlobalVariable",
+        "importPath": "GlobalVariable",
+        "description": "GlobalVariable",
         "isExtraImport": true,
-        "detail": "jarvis.Tasks.SystemTask",
+        "detail": "GlobalVariable",
         "documentation": {}
     },
     {
         "label": "SystemTask",
-        "importPath": "jarvis.Tasks",
-        "description": "jarvis.Tasks",
+        "importPath": "Tasks.SystemTask",
+        "description": "Tasks.SystemTask",
         "isExtraImport": true,
-        "detail": "jarvis.Tasks",
-        "documentation": {}
-    },
-    {
-        "label": "SpeechService",
-        "importPath": "jarvis.Services.SpeechService",
-        "description": "jarvis.Services.SpeechService",
-        "isExtraImport": true,
-        "detail": "jarvis.Services.SpeechService",
+        "detail": "Tasks.SystemTask",
         "documentation": {}
     },
     {
@@ -301,46 +333,6 @@
         "description": "ui.jarvis_ui",
         "isExtraImport": true,
         "detail": "ui.jarvis_ui",
-        "documentation": {}
-    },
-    {
-        "label": "GlobalVariable",
-        "importPath": "GlobalVariable",
-        "description": "GlobalVariable",
-        "isExtraImport": true,
-        "detail": "GlobalVariable",
-        "documentation": {}
-    },
-    {
-        "label": "TaskService",
-        "importPath": "Services.TaskService",
-        "description": "Services.TaskService",
-        "isExtraImport": true,
-        "detail": "Services.TaskService",
-        "documentation": {}
-    },
-    {
-        "label": "SpeechService",
-        "importPath": "Services.SpeechService",
-        "description": "Services.SpeechService",
-        "isExtraImport": true,
-        "detail": "Services.SpeechService",
-        "documentation": {}
-    },
-    {
-        "label": "GreetingService",
-        "importPath": "Services.GreetingService",
-        "description": "Services.GreetingService",
-        "isExtraImport": true,
-        "detail": "Services.GreetingService",
-        "documentation": {}
-    },
-    {
-        "label": "SpeechRecognitionService",
-        "importPath": "Services.SpeechRecognitionService",
-        "description": "Services.SpeechRecognitionService",
-        "isExtraImport": true,
-        "detail": "Services.SpeechRecognitionService",
         "documentation": {}
     },
     {
@@ -745,6 +737,24 @@
         "importPath": "jarvis.Services.TaskService",
         "description": "jarvis.Services.TaskService",
         "peekOfCode": "class TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"how are you\": st.answerQuestion,\n            \"hello\": st.answerQuestion,\n            \"fine\": st.answerQuestion,\n            \"good morning\": st.answerQuestion,\n            \"thank you\": st.answerQuestion,\n            \"are you there\": st.answerQuestion,",
+        "detail": "jarvis.Services.TaskService",
+        "documentation": {}
+    },
+    {
+        "label": "current_dir",
+        "kind": 5,
+        "importPath": "jarvis.Services.TaskService",
+        "description": "jarvis.Services.TaskService",
+        "peekOfCode": "current_dir = os.path.dirname(os.path.abspath(__file__))\nparent_dir = os.path.abspath(os.path.join(current_dir, \"../\"))\nsys.path.append(parent_dir)\nfrom GlobalVariable import GlobalVariable\nfrom Tasks.SystemTask import SystemTask\nclass TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"how are you\": st.answerQuestion,",
+        "detail": "jarvis.Services.TaskService",
+        "documentation": {}
+    },
+    {
+        "label": "parent_dir",
+        "kind": 5,
+        "importPath": "jarvis.Services.TaskService",
+        "description": "jarvis.Services.TaskService",
+        "peekOfCode": "parent_dir = os.path.abspath(os.path.join(current_dir, \"../\"))\nsys.path.append(parent_dir)\nfrom GlobalVariable import GlobalVariable\nfrom Tasks.SystemTask import SystemTask\nclass TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"how are you\": st.answerQuestion,\n            \"hello\": st.answerQuestion,",
         "detail": "jarvis.Services.TaskService",
         "documentation": {}
     },

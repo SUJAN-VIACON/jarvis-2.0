@@ -1,4 +1,4 @@
-from jarvis.Services.SpeechService import SpeechService
+from resources import SpeechService
 import pywhatkit
 import datetime
 import wikipedia

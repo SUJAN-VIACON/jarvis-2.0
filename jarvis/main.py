@@ -7,11 +7,11 @@ from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from ui.jarvis_ui import Ui_Form
 
-from GlobalVariable import GlobalVariable
-from Services.TaskService import TaskService
-from Services.SpeechService import SpeechService
-from Services.GreetingService import GreetingService
-from Services.SpeechRecognitionService import SpeechRecognitionService
+from resources import GlobalVariable
+from resources import TaskService
+from resources import SpeechService
+from resources import GreetingService
+from resources import SpeechRecognitionService
 
 
 class MainThread(QThread):

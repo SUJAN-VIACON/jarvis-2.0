@@ -1,11 +1,17 @@
 import random
-from jarvis.Tasks.SystemTask import SystemTask
 from .SpeechService import SpeechService
 from .SpeechRecognitionService import SpeechRecognitionService
 from .SpeechService import SpeechService
 
-from jarvis.GlobalVariable import GlobalVariable
-from jarvis.Tasks import SystemTask
+import sys
+import os
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.abspath(os.path.join(current_dir, "../"))
+sys.path.append(parent_dir)
+
+from GlobalVariable import GlobalVariable
+from Tasks.SystemTask import SystemTask
 
 
 class TaskService:
@@ -57,5 +63,3 @@ class TaskService:
 
     def test(self, query):
         SpeechService.speak(query)
-
-        

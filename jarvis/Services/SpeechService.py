@@ -1,5 +1,6 @@
 import pyttsx3
-from jarvis.GlobalVariable import GlobalVariable
+from resources import GlobalVariable
+
 
 class SpeechService:
     @staticmethod

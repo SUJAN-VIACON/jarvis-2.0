@@ -1,5 +1,5 @@
 import speech_recognition as sr
-from jarvis.GlobalVariable import GlobalVariable
+from resources import GlobalVariable
 
 class SpeechRecognitionService:
     def __init__(self):
