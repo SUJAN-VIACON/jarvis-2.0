@@ -1,0 +1,814 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "GlobalVariable",
+        "importPath": "jarvis.GlobalVariable",
+        "description": "jarvis.GlobalVariable",
+        "isExtraImport": true,
+        "detail": "jarvis.GlobalVariable",
+        "documentation": {}
+    },
+    {
+        "label": "GlobalVariable",
+        "importPath": "jarvis.GlobalVariable",
+        "description": "jarvis.GlobalVariable",
+        "isExtraImport": true,
+        "detail": "jarvis.GlobalVariable",
+        "documentation": {}
+    },
+    {
+        "label": "GlobalVariable",
+        "importPath": "jarvis.GlobalVariable",
+        "description": "jarvis.GlobalVariable",
+        "isExtraImport": true,
+        "detail": "jarvis.GlobalVariable",
+        "documentation": {}
+    },
+    {
+        "label": "pyttsx3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyttsx3",
+        "description": "pyttsx3",
+        "detail": "pyttsx3",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "SystemTask",
+        "importPath": "jarvis.Tasks.SystemTask",
+        "description": "jarvis.Tasks.SystemTask",
+        "isExtraImport": true,
+        "detail": "jarvis.Tasks.SystemTask",
+        "documentation": {}
+    },
+    {
+        "label": "SystemTask",
+        "importPath": "jarvis.Tasks",
+        "description": "jarvis.Tasks",
+        "isExtraImport": true,
+        "detail": "jarvis.Tasks",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechService",
+        "importPath": "jarvis.Services.SpeechService",
+        "description": "jarvis.Services.SpeechService",
+        "isExtraImport": true,
+        "detail": "jarvis.Services.SpeechService",
+        "documentation": {}
+    },
+    {
+        "label": "pywhatkit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pywhatkit",
+        "description": "pywhatkit",
+        "detail": "pywhatkit",
+        "documentation": {}
+    },
+    {
+        "label": "wikipedia",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wikipedia",
+        "description": "wikipedia",
+        "detail": "wikipedia",
+        "documentation": {}
+    },
+    {
+        "label": "webbrowser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "keyboard",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keyboard",
+        "description": "keyboard",
+        "detail": "keyboard",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QTimer",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QTime",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QDate",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "Qt",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_Form",
+        "importPath": "ui.jarvis_ui",
+        "description": "ui.jarvis_ui",
+        "isExtraImport": true,
+        "detail": "ui.jarvis_ui",
+        "documentation": {}
+    },
+    {
+        "label": "GlobalVariable",
+        "importPath": "GlobalVariable",
+        "description": "GlobalVariable",
+        "isExtraImport": true,
+        "detail": "GlobalVariable",
+        "documentation": {}
+    },
+    {
+        "label": "TaskService",
+        "importPath": "Services.TaskService",
+        "description": "Services.TaskService",
+        "isExtraImport": true,
+        "detail": "Services.TaskService",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechService",
+        "importPath": "Services.SpeechService",
+        "description": "Services.SpeechService",
+        "isExtraImport": true,
+        "detail": "Services.SpeechService",
+        "documentation": {}
+    },
+    {
+        "label": "GreetingService",
+        "importPath": "Services.GreetingService",
+        "description": "Services.GreetingService",
+        "isExtraImport": true,
+        "detail": "Services.GreetingService",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechRecognitionService",
+        "importPath": "Services.SpeechRecognitionService",
+        "description": "Services.SpeechRecognitionService",
+        "isExtraImport": true,
+        "detail": "Services.SpeechRecognitionService",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"jarvis-2-0-py3.8\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"jarvis-2-0-py3.8\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"jarvis-2-0-py3.8\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"jarvis-2-0-py3.8\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"jarvis-2-0-py3.8\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "get_next_cache_dir",
+        "kind": 2,
+        "importPath": ".venv.Scripts.clear_comtypes_cache",
+        "description": ".venv.Scripts.clear_comtypes_cache",
+        "peekOfCode": "def get_next_cache_dir():\n    work_dir = os.getcwd()\n    try:\n        # change working directory to avoid import from local folder\n        # during installation process\n        os.chdir(os.path.dirname(sys.executable))\n        import comtypes.client\n        return comtypes.client._code_cache._find_gen_dir()\n    except ImportError:\n        return None",
+        "detail": ".venv.Scripts.clear_comtypes_cache",
+        "documentation": {}
+    },
+    {
+        "label": "remove_directory",
+        "kind": 2,
+        "importPath": ".venv.Scripts.clear_comtypes_cache",
+        "description": ".venv.Scripts.clear_comtypes_cache",
+        "peekOfCode": "def remove_directory(directory, silent):\n    if directory:\n        if silent:\n            _remove(directory)\n        else:\n            try:\n                confirm = raw_input('Remove comtypes cache directories? (y/n): ')\n            except NameError:\n                confirm = input('Remove comtypes cache directories? (y/n): ')\n            if confirm.lower() == 'y':",
+        "detail": ".venv.Scripts.clear_comtypes_cache",
+        "documentation": {}
+    },
+    {
+        "label": "directory",
+        "kind": 5,
+        "importPath": ".venv.Scripts.clear_comtypes_cache",
+        "description": ".venv.Scripts.clear_comtypes_cache",
+        "peekOfCode": "directory = get_next_cache_dir()\nremoved = remove_directory(directory, silent)\nif removed:\n    directory = get_next_cache_dir()\n    # do not request the second confirmation\n    # if the first folder was already removed\n    remove_directory(directory, silent=removed)",
+        "detail": ".venv.Scripts.clear_comtypes_cache",
+        "documentation": {}
+    },
+    {
+        "label": "removed",
+        "kind": 5,
+        "importPath": ".venv.Scripts.clear_comtypes_cache",
+        "description": ".venv.Scripts.clear_comtypes_cache",
+        "peekOfCode": "removed = remove_directory(directory, silent)\nif removed:\n    directory = get_next_cache_dir()\n    # do not request the second confirmation\n    # if the first folder was already removed\n    remove_directory(directory, silent=removed)",
+        "detail": ".venv.Scripts.clear_comtypes_cache",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except IOError:\n                pass\n        tee_f.write(what)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info[0],\n        sys.version_info[1],\n        suffix,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(\"-> %s\\\\%s[%s]=%r\" % (root_key_name, key_name, value_name, value))\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(\"-> DELETE %s\\\\%s[%s]\" % (root_key_name, key_name, value_name))\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n        like file_created to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(\"Failed to unregister COM objects: %s\" % (why,))\n    try:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location):\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError('Path \"{}\" does not exist!'.format(location))\n    return location\ndef main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python pywin32_postinstall.py -install\n    If you installed pywin32 via a .exe installer, this should be run\n    automatically after installation, but if it fails you can run it again.\n    If you installed pywin32 via PIP, you almost certainly need to run this to",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(os.path.join(tempfile.gettempdir(), \"pywin32_postinstall.log\"), \"w\")\nclass Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except IOError:\n                pass",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.\n    file_created\n    is_bdist_wininst = True",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.\n    file_created\n    is_bdist_wininst = True\nexcept NameError:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(\"*** Test script '%s' exited with %s\" % (script, result.returncode))\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [this_dir] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "this_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "this_dir = os.path.dirname(__file__)\nsite_packages = [\n    site.getusersitepackages(),\n] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [\n    site.getusersitepackages(),\n] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "GreetingService",
+        "kind": 6,
+        "importPath": "jarvis.Services.GreetingService",
+        "description": "jarvis.Services.GreetingService",
+        "peekOfCode": "class GreetingService:\n    @staticmethod\n    def wishMe():\n        hour = datetime.datetime.now().hour\n        if hour >= 0 and hour < 12:\n            SpeechService.speak(\"Good Morning mister sujan\")\n        elif hour >= 12 and hour < 18:\n            SpeechService.speak(\"Good Afternoon mister sujan\")\n        else:\n            SpeechService.speak(\"Good Evening mister sujan\")",
+        "detail": "jarvis.Services.GreetingService",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechRecognitionService",
+        "kind": 6,
+        "importPath": "jarvis.Services.SpeechRecognitionService",
+        "description": "jarvis.Services.SpeechRecognitionService",
+        "peekOfCode": "class SpeechRecognitionService:\n    def __init__(self):\n        self.recognizer = sr.Recognizer()\n        self.sourceMicrophone = sr.Microphone(device_index=1)\n    def recognizerVoice(self):\n        with self.sourceMicrophone as source:\n            GlobalVariable.setValue(\"l i s t i n g..................\")\n            print(\"l i s t i n g..................\")\n            audio = self.recognizer.listen(source, phrase_time_limit=3)\n        try:",
+        "detail": "jarvis.Services.SpeechRecognitionService",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechService",
+        "kind": 6,
+        "importPath": "jarvis.Services.SpeechService",
+        "description": "jarvis.Services.SpeechService",
+        "peekOfCode": "class SpeechService:\n    @staticmethod\n    def speak(text):\n        engine = pyttsx3.init(\"sapi5\")\n        voices = engine.getProperty(\"voices\")\n        engine.setProperty(\"voice\", voices[0].id)\n        engine.setProperty(\"rate\", 180)\n        engine.say(text)\n        engine.runAndWait()\n        GlobalVariable.setValue(text)",
+        "detail": "jarvis.Services.SpeechService",
+        "documentation": {}
+    },
+    {
+        "label": "TaskService",
+        "kind": 6,
+        "importPath": "jarvis.Services.TaskService",
+        "description": "jarvis.Services.TaskService",
+        "peekOfCode": "class TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"how are you\": st.answerQuestion,\n            \"hello\": st.answerQuestion,\n            \"fine\": st.answerQuestion,\n            \"good morning\": st.answerQuestion,\n            \"thank you\": st.answerQuestion,\n            \"are you there\": st.answerQuestion,",
+        "detail": "jarvis.Services.TaskService",
+        "documentation": {}
+    },
+    {
+        "label": "SystemTask",
+        "kind": 6,
+        "importPath": "jarvis.Tasks.SystemTask",
+        "description": "jarvis.Tasks.SystemTask",
+        "peekOfCode": "class SystemTask:\n    def answerQuestion(self, question):\n        if \"how are you\" in question:\n            SpeechService.speak(\"i am fine sir\")\n            SpeechService.speak(\"whats about you? \")\n        if \"hello\" in question or \"hi\" in question:\n            SpeechService.speak(\"hii sir\")\n        if \"fine\" in question:\n            SpeechService.speak(\"ok sir tell me how can i help you\")\n        if \"good morning\" in question:",
+        "detail": "jarvis.Tasks.SystemTask",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_Form",
+        "kind": 6,
+        "importPath": "jarvis.ui.jarvis_ui",
+        "description": "jarvis.ui.jarvis_ui",
+        "peekOfCode": "class Ui_Form(object):\n    def setupUi(self, Form):\n        Form.setObjectName(\"Form\")\n        Form.resize(1089, 867)\n        self.label = QtWidgets.QLabel(Form)\n        self.label.setGeometry(QtCore.QRect(-10, 0, 1101, 871))\n        self.label.setStyleSheet(\"\\n\"\n                                 \"background-color: rgb(3, 3, 3);\")\n        self.label.setText(\"\")\n        self.label.setObjectName(\"label\")",
+        "detail": "jarvis.ui.jarvis_ui",
+        "documentation": {}
+    },
+    {
+        "label": "GlobalVariable",
+        "kind": 6,
+        "importPath": "jarvis.GlobalVariable",
+        "description": "jarvis.GlobalVariable",
+        "peekOfCode": "class GlobalVariable:\n    global_text = \"...\"  # Define the global variable at the class level\n    @staticmethod\n    def getValue():\n        return GlobalVariable.global_text\n    @staticmethod\n    def setValue(value):\n        GlobalVariable.global_text = value",
+        "detail": "jarvis.GlobalVariable",
+        "documentation": {}
+    },
+    {
+        "label": "MainThread",
+        "kind": 6,
+        "importPath": "jarvis.main",
+        "description": "jarvis.main",
+        "peekOfCode": "class MainThread(QThread):\n    def __init__(self):\n        super(MainThread, self).__init__()\n    def run(self):\n        self.TaskExecution()\n    def TaskExecution(self):\n        GreetingService.wishMe()\n        while True:\n            if __name__ == \"__main__\":\n                speech_recognition_service = SpeechRecognitionService()",
+        "detail": "jarvis.main",
+        "documentation": {}
+    },
+    {
+        "label": "Main",
+        "kind": 6,
+        "importPath": "jarvis.main",
+        "description": "jarvis.main",
+        "peekOfCode": "class Main(QMainWindow):\n    startExecution = MainThread()\n    def __init__(self):\n        super().__init__()\n        self.ui = Ui_Form()\n        self.ui.setupUi(self)\n        self.startTask()\n        # self.ui.pushButton_2.clicked.connect(self.startTask)\n        self.ui.pushButton.clicked.connect(self.close)\n    def startTask(self):",
+        "detail": "jarvis.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "jarvis.main",
+        "description": "jarvis.main",
+        "peekOfCode": "app = QApplication(sys.argv)\njarvis = Main()\njarvis.show()\nexit(app.exec_())",
+        "detail": "jarvis.main",
+        "documentation": {}
+    },
+    {
+        "label": "jarvis",
+        "kind": 5,
+        "importPath": "jarvis.main",
+        "description": "jarvis.main",
+        "peekOfCode": "jarvis = Main()\njarvis.show()\nexit(app.exec_())",
+        "detail": "jarvis.main",
+        "documentation": {}
+    }
+]
