@@ -1,4 +1,5 @@
 import random
+from jarvis.Tasks.ChatGptTask import ChatGptTask
 from .SpeechService import SpeechService
 from .SpeechRecognitionService import SpeechRecognitionService
 from .SpeechService import SpeechService
@@ -12,6 +13,7 @@ sys.path.append(parent_dir)
 
 from GlobalVariable import GlobalVariable
 from Tasks.SystemTask import SystemTask
+from Tasks.ChatGptTask import ChatGptTask
 
 
 class TaskService:
@@ -59,7 +61,7 @@ class TaskService:
         random_key = random.randint(0, len(messages))
         SpeechService.speak(messages[random_key])
 
-    #########  all call back function #############
-
-    def test(self, query):
-        SpeechService.speak(query)
+    def askChatGpt(self,query):
+        GPT = ChatGptTask()
+        answer = GPT.ask_question(query)
+        SpeechService.speak(answer)

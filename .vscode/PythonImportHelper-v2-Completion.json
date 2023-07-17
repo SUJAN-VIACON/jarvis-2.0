@@ -97,6 +97,14 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "speech_recognition",
         "kind": 6,
         "isExtraImport": true,
@@ -188,6 +196,14 @@
         "documentation": {}
     },
     {
+        "label": "ChatGptTask",
+        "importPath": "jarvis.Tasks.ChatGptTask",
+        "description": "jarvis.Tasks.ChatGptTask",
+        "isExtraImport": true,
+        "detail": "jarvis.Tasks.ChatGptTask",
+        "documentation": {}
+    },
+    {
         "label": "GlobalVariable",
         "importPath": "GlobalVariable",
         "description": "GlobalVariable",
@@ -201,6 +217,32 @@
         "description": "Tasks.SystemTask",
         "isExtraImport": true,
         "detail": "Tasks.SystemTask",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGptTask",
+        "importPath": "Tasks.ChatGptTask",
+        "description": "Tasks.ChatGptTask",
+        "isExtraImport": true,
+        "detail": "Tasks.ChatGptTask",
+        "documentation": {}
+    },
+    {
+        "label": "openai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openai",
+        "description": "openai",
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
@@ -709,7 +751,7 @@
         "kind": 6,
         "importPath": "jarvis.Services.GreetingService",
         "description": "jarvis.Services.GreetingService",
-        "peekOfCode": "class GreetingService:\n    @staticmethod\n    def wishMe():\n        hour = datetime.datetime.now().hour\n        if hour >= 0 and hour < 12:\n            SpeechService.speak(\"Good Morning mister sujan\")\n        elif hour >= 12 and hour < 18:\n            SpeechService.speak(\"Good Afternoon mister sujan\")\n        else:\n            SpeechService.speak(\"Good Evening mister sujan\")",
+        "peekOfCode": "class GreetingService:\n    @staticmethod\n    def wishMe():\n        owner_name = os.getenv(\"OWNER_NAME\")\n        gender = os.getenv(\"GENDER\")\n        greeting = os.getenv(\"GREETING\")\n        hour = datetime.datetime.now().hour\n        if hour >= 0 and hour < 12:\n            SpeechService.speak(\"Good Morning \" + owner_name)\n        elif hour >= 12 and hour < 18:",
         "detail": "jarvis.Services.GreetingService",
         "documentation": {}
     },
@@ -745,7 +787,7 @@
         "kind": 5,
         "importPath": "jarvis.Services.TaskService",
         "description": "jarvis.Services.TaskService",
-        "peekOfCode": "current_dir = os.path.dirname(os.path.abspath(__file__))\nparent_dir = os.path.abspath(os.path.join(current_dir, \"../\"))\nsys.path.append(parent_dir)\nfrom GlobalVariable import GlobalVariable\nfrom Tasks.SystemTask import SystemTask\nclass TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"how are you\": st.answerQuestion,",
+        "peekOfCode": "current_dir = os.path.dirname(os.path.abspath(__file__))\nparent_dir = os.path.abspath(os.path.join(current_dir, \"../\"))\nsys.path.append(parent_dir)\nfrom GlobalVariable import GlobalVariable\nfrom Tasks.SystemTask import SystemTask\nfrom Tasks.ChatGptTask import ChatGptTask\nclass TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {",
         "detail": "jarvis.Services.TaskService",
         "documentation": {}
     },
@@ -754,8 +796,17 @@
         "kind": 5,
         "importPath": "jarvis.Services.TaskService",
         "description": "jarvis.Services.TaskService",
-        "peekOfCode": "parent_dir = os.path.abspath(os.path.join(current_dir, \"../\"))\nsys.path.append(parent_dir)\nfrom GlobalVariable import GlobalVariable\nfrom Tasks.SystemTask import SystemTask\nclass TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"how are you\": st.answerQuestion,\n            \"hello\": st.answerQuestion,",
+        "peekOfCode": "parent_dir = os.path.abspath(os.path.join(current_dir, \"../\"))\nsys.path.append(parent_dir)\nfrom GlobalVariable import GlobalVariable\nfrom Tasks.SystemTask import SystemTask\nfrom Tasks.ChatGptTask import ChatGptTask\nclass TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"how are you\": st.answerQuestion,",
         "detail": "jarvis.Services.TaskService",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGptTask",
+        "kind": 6,
+        "importPath": "jarvis.Tasks.ChatGptTask",
+        "description": "jarvis.Tasks.ChatGptTask",
+        "peekOfCode": "class ChatGptTask:\n    def __init__(self):\n        self.GPT = openai\n        self.GPT.api_key = \"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\"\n    def ask_question(self, prompt):\n        model = \"gpt-3.5-turbo\"\n        response = openai.Completion.create(\n            engine=model, prompt=prompt, max_tokens=100, n=1, stop=None, temperature=0.7\n        )\n        answer = response.choices[0].text.strip()",
+        "detail": "jarvis.Tasks.ChatGptTask",
         "documentation": {}
     },
     {
