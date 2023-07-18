@@ -1,7 +1,6 @@
 import datetime
 import random
 import requests
-import wifi
 import sys
 
 from .SpeechService import SpeechService
@@ -15,8 +14,6 @@ load_dotenv()
 class GreetingService:
     @staticmethod
     def wishMe():
-        GreetingService().checkInternetConnection()
-
         owner_name = os.getenv("OWNER_NAME")
         hour = datetime.datetime.now().hour
 
@@ -40,7 +37,7 @@ class GreetingService:
             "Wishing you a day that's better than a bouquet of your favorite flowers.",
         ]
 
-        random_key = random.randint(0, len(messages))
+        random_key = random.randint(0, len(messages) - 1)
         SpeechService.speak(messages[random_key])
 
         messages = [
@@ -58,32 +55,10 @@ class GreetingService:
 
         SpeechService.speak(messages[random_key])
 
-    def checkInternetConnection(self):
-        if self.connect:
-            return
-
-        isConnected = self.connect_to_wifi("realme C35", "big hero 6")
-
-        if isConnected == False:
-            SpeechService.speak(
-                "Please check the wifi connection i cannot create the connection with it"
-            )
-            SpeechService.speak("bye....")
-            sys.exit()
-
     def connect(host="http://google.com"):
         try:
             response = requests.get(host, timeout=5)
             return response.status_code == 200
-        except requests.RequestException:
-            # If an exception occurred during the request, return False (not connected)
-            return False
-
-    def connect_to_wifi(ssid, password):
-        SpeechService.speak("trying to create a connection with wifi")
-        try:
-            wifi.connect(ssid, password)
-            return True
         except requests.RequestException:
             # If an exception occurred during the request, return False (not connected)
             return False

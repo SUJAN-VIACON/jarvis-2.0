@@ -14,11 +14,13 @@ from GlobalVariable import GlobalVariable
 from Tasks.SystemTask import SystemTask
 
 
-
 class TaskService:
     def executableTask(self):
         st = SystemTask()
         return {
+            "who are you": st.answerQuestion,
+            "yes": st.answerQuestion,
+            "no": st.answerQuestion,
             "how are you": st.answerQuestion,
             "hello": st.answerQuestion,
             "fine": st.answerQuestion,
@@ -26,6 +28,16 @@ class TaskService:
             "thank you": st.answerQuestion,
             "are you there": st.answerQuestion,
             "who is": st.answerQuestion,
+            "shutdown": st.shutdown,
+            "open instagram": st.openInstagram,
+            "open facebook": st.openFacebook,
+            "open notepad": st.openNotepad,
+            "open google": st.openGoogle,
+            "close it": st.closeLastTab,
+            "lock": st.lockScreen,
+            "search": st.searchOnGoogle,
+            "play": st.playYoutube,
+            # "call sujan": st.callSujan,
         }
 
     def checkAndExecute(self, query):
@@ -38,6 +50,20 @@ class TaskService:
                 break
 
         if self.isExecuted:
+            messages = [
+                "Is there anything else I can support you with?",
+                "Do you require further assistance from me?",
+                "Are there any other ways I can be of help?",
+                "Is there something else I can aid you in?",
+                "Do you need assistance with anything else?",
+                "Is there another matter I can assist you with?",
+                "Let me know if there's anything else I can help you with.",
+                "Is there any other way I can be of service?",
+                "Do you have any other questions I can answer?",
+                "Is there anything else you'd like me to assist you with?",
+            ]
+            random_key = random.randint(0, len(messages) - 1)
+            SpeechService.speak(messages[random_key])
             return
 
         self.apologies()
@@ -47,6 +73,12 @@ class TaskService:
             speech_recognition_service = SpeechRecognitionService()
             query = speech_recognition_service.recognizerVoice()
             GlobalVariable.setValue(query)
+            if "go to sleep" in query:
+                SpeechService.speak("ok sir i am going to sleep ")
+                SpeechService.speak(
+                    "i am always with you just say wake up jarvis........."
+                )
+                break
             self.checkAndExecute(query)
 
     def apologies(self):
@@ -57,5 +89,5 @@ class TaskService:
             "Could not get your point could you rephrase it",
         ]
 
-        random_key = random.randint(0, len(messages))
+        random_key = random.randint(0, len(messages) - 1)
         SpeechService.speak(messages[random_key])

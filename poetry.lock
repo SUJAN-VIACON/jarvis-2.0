@@ -3858,6 +3858,16 @@ requests = ">=2.26.0"
 whisper-api = ["openai"]
 
 [[package]]
+name = "subprocess-run"
+version = "0.0.8"
+description = "The subprocess module extension to run processes."
+optional = false
+python-versions = "*"
+files = [
+    {file = "subprocess.run-0.0.8.tar.gz", hash = "sha256:5760270139acc4cc4058184e539f5b613dbe0073d84ee43247c2e0fc5c04db4e"},
+]
+
+[[package]]
 name = "tqdm"
 version = "4.65.0"
 description = "Fast, Extensible Progress Meter"
@@ -4044,4 +4054,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "7e6d8eddcbcd3186b0c839e5bf66aec4b080b5f5acac6ea4d48e1d686aa51ead"
+content-hash = "855de40e3e1e013c824807a5946d98cb4d55ccf6389fd346a4c9d32bdb2ed3e3"

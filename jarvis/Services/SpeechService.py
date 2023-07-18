@@ -9,8 +9,11 @@ class SpeechService:
         voices = engine.getProperty("voices")
         engine.setProperty("voice", voices[0].id)
         engine.setProperty("rate", 180)
-        engine.say(text)
-        engine.runAndWait()
 
         GlobalVariable.setValue(text)
         print(text)
+        
+        engine.say(text)
+        engine.runAndWait()
+
+       

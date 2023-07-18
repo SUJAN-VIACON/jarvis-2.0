@@ -115,15 +115,6 @@
         "documentation": {}
     },
     {
-        "label": "wifi",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "wifi",
-        "description": "wifi",
-        "detail": "wifi",
-        "documentation": {}
-    },
-    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -735,7 +726,7 @@
         "kind": 6,
         "importPath": "jarvis.Services.GreetingService",
         "description": "jarvis.Services.GreetingService",
-        "peekOfCode": "class GreetingService:\n    @staticmethod\n    def wishMe():\n        GreetingService().checkInternetConnection()\n        owner_name = os.getenv(\"OWNER_NAME\")\n        hour = datetime.datetime.now().hour\n        if hour >= 0 and hour < 12:\n            SpeechService.speak(\"Good Morning \" + owner_name)\n        elif hour >= 12 and hour < 18:\n            SpeechService.speak(\"Good Afternoon \" + owner_name)",
+        "peekOfCode": "class GreetingService:\n    @staticmethod\n    def wishMe():\n        owner_name = os.getenv(\"OWNER_NAME\")\n        hour = datetime.datetime.now().hour\n        if hour >= 0 and hour < 12:\n            SpeechService.speak(\"Good Morning \" + owner_name)\n        elif hour >= 12 and hour < 18:\n            SpeechService.speak(\"Good Afternoon \" + owner_name)\n        else:",
         "detail": "jarvis.Services.GreetingService",
         "documentation": {}
     },
@@ -753,7 +744,7 @@
         "kind": 6,
         "importPath": "jarvis.Services.SpeechService",
         "description": "jarvis.Services.SpeechService",
-        "peekOfCode": "class SpeechService:\n    @staticmethod\n    def speak(text):\n        engine = pyttsx3.init(\"sapi5\")\n        voices = engine.getProperty(\"voices\")\n        engine.setProperty(\"voice\", voices[0].id)\n        engine.setProperty(\"rate\", 180)\n        engine.say(text)\n        engine.runAndWait()\n        GlobalVariable.setValue(text)",
+        "peekOfCode": "class SpeechService:\n    @staticmethod\n    def speak(text):\n        engine = pyttsx3.init(\"sapi5\")\n        voices = engine.getProperty(\"voices\")\n        engine.setProperty(\"voice\", voices[0].id)\n        engine.setProperty(\"rate\", 180)\n        GlobalVariable.setValue(text)\n        print(text)\n        engine.say(text)",
         "detail": "jarvis.Services.SpeechService",
         "documentation": {}
     },
@@ -762,7 +753,7 @@
         "kind": 6,
         "importPath": "jarvis.Services.TaskService",
         "description": "jarvis.Services.TaskService",
-        "peekOfCode": "class TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"how are you\": st.answerQuestion,\n            \"hello\": st.answerQuestion,\n            \"fine\": st.answerQuestion,\n            \"good morning\": st.answerQuestion,\n            \"thank you\": st.answerQuestion,\n            \"are you there\": st.answerQuestion,",
+        "peekOfCode": "class TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"who are you\": st.answerQuestion,\n            \"yes\": st.answerQuestion,\n            \"no\": st.answerQuestion,\n            \"how are you\": st.answerQuestion,\n            \"hello\": st.answerQuestion,\n            \"fine\": st.answerQuestion,",
         "detail": "jarvis.Services.TaskService",
         "documentation": {}
     },
@@ -771,7 +762,7 @@
         "kind": 5,
         "importPath": "jarvis.Services.TaskService",
         "description": "jarvis.Services.TaskService",
-        "peekOfCode": "current_dir = os.path.dirname(os.path.abspath(__file__))\nparent_dir = os.path.abspath(os.path.join(current_dir, \"../\"))\nsys.path.append(parent_dir)\nfrom GlobalVariable import GlobalVariable\nfrom Tasks.SystemTask import SystemTask\nclass TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"how are you\": st.answerQuestion,",
+        "peekOfCode": "current_dir = os.path.dirname(os.path.abspath(__file__))\nparent_dir = os.path.abspath(os.path.join(current_dir, \"../\"))\nsys.path.append(parent_dir)\nfrom GlobalVariable import GlobalVariable\nfrom Tasks.SystemTask import SystemTask\nclass TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"who are you\": st.answerQuestion,",
         "detail": "jarvis.Services.TaskService",
         "documentation": {}
     },
@@ -780,7 +771,7 @@
         "kind": 5,
         "importPath": "jarvis.Services.TaskService",
         "description": "jarvis.Services.TaskService",
-        "peekOfCode": "parent_dir = os.path.abspath(os.path.join(current_dir, \"../\"))\nsys.path.append(parent_dir)\nfrom GlobalVariable import GlobalVariable\nfrom Tasks.SystemTask import SystemTask\nclass TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"how are you\": st.answerQuestion,\n            \"hello\": st.answerQuestion,",
+        "peekOfCode": "parent_dir = os.path.abspath(os.path.join(current_dir, \"../\"))\nsys.path.append(parent_dir)\nfrom GlobalVariable import GlobalVariable\nfrom Tasks.SystemTask import SystemTask\nclass TaskService:\n    def executableTask(self):\n        st = SystemTask()\n        return {\n            \"who are you\": st.answerQuestion,\n            \"yes\": st.answerQuestion,",
         "detail": "jarvis.Services.TaskService",
         "documentation": {}
     },
@@ -789,7 +780,7 @@
         "kind": 6,
         "importPath": "jarvis.Tasks.SystemTask",
         "description": "jarvis.Tasks.SystemTask",
-        "peekOfCode": "class SystemTask:\n    def answerQuestion(self, question):\n        if \"how are you\" in question:\n            SpeechService.speak(\"i am fine sir\")\n            SpeechService.speak(\"whats about you? \")\n        if \"hello\" in question or \"hi\" in question:\n            SpeechService.speak(\"hii sir\")\n        if \"fine\" in question:\n            SpeechService.speak(\"ok sir tell me how can i help you\")\n        if \"good morning\" in question:",
+        "peekOfCode": "class SystemTask:\n    def answerQuestion(self, question):\n        if \"who are you\" in question:\n            SpeechService.speak(\"i am jarvis you personal virtual assistant.\")\n            SpeechService.speak(\"i am created by mister sujan moi.\")\n        if \"how are you\" in question:\n            SpeechService.speak(\"i am fine\")\n            SpeechService.speak(\"whats about you? \")\n        if \"yes\" in question or \"no\" in question:\n            SpeechService.speak(\"okk\")",
         "detail": "jarvis.Tasks.SystemTask",
         "documentation": {}
     },
