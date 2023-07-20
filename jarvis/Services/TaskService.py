@@ -20,7 +20,7 @@ class TaskService:
         return {
             "who are you": st.answerQuestion,
             "yes": st.answerQuestion,
-            "no": st.answerQuestion,
+            # "no": st.answerQuestion,
             "how are you": st.answerQuestion,
             "hello": st.answerQuestion,
             "fine": st.answerQuestion,
