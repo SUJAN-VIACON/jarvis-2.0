@@ -1,4 +1,4 @@
-### 1.install python in your system
+### 1. install python in your system
 ### 2. open the project
 
 ```bash
