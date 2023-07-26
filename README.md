@@ -1,5 +1,5 @@
-### install python in your system
-### open the project
+### 1.install python in your system
+### 2. open the project
 
 ```bash
 pip install poetry
